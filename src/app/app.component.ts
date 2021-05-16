@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'dda-todo';
+  constructor(){
+    // setTimeout(()=>{
+    //     this.title="Jai shree Ram";
+    // },2000)
+  }
 }
